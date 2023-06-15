@@ -5,7 +5,7 @@ DeepFaceLab is the leading software for creating deepfakes.
 
 Create pod from ***"RunPod Desktop"*** template, at least 30GB for volume and container disk sizes, as both will be used to create the environment later.
 
-Click **"Connect"**, Start and open a terminal by clicking **"Connect to Web Terminal"**, copy-paste the whole line below, hit enter:
+Click **"Connect"**, **"Start Web Terminal"** and open a terminal by clicking **"Connect to Web Terminal"**, copy-paste the whole line below, hit enter:
 
 ```terminal
 wget https://repo.anaconda.com/miniconda/Miniconda3-py39_23.3.1-0-Linux-x86_64.sh; cd /; sudo chmod 777 /workspace; cd /workspace; git clone https://github.com/DaviSoEditando/DeepFaceLab-Runpod DeepFaceLab_Linux; bash /home/kasm-user/*.sh
