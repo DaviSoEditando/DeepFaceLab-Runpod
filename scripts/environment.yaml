@@ -80,7 +80,7 @@ dependencies:
       - werkzeug==2.2.3
       - wrapt==1.12.1
       - zipp==3.15.0
-      - -U tf2onnx
+      - tf2onnx
       - scikit-image==0.14.2
       - ffmpeg-python==0.1.17
 prefix: /home/kasm-user/miniconda3/envs/deepfacelab
