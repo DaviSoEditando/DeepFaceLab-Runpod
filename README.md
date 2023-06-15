@@ -11,7 +11,7 @@ Click **"Connect"**, **"Start Web Terminal"** and open a terminal by clicking **
 wget https://repo.anaconda.com/miniconda/Miniconda3-py39_23.3.1-0-Linux-x86_64.sh; cd /; sudo chmod 777 /workspace; cd /workspace; git clone https://github.com/DaviSoEditando/DeepFaceLab-Runpod DeepFaceLab_Linux; bash /home/kasm-user/*.sh
 ```
 
-Hit the spacebar a few times, say yes to each question, set install location to **/home/kasm-user/miniconda3** and finish the installation.
+Hit the spacebar a few times, answer yes to each question, set install location to **/home/kasm-user/miniconda3** (will probably already be), answer yes to the last question and finish the installation.
 
 Quit terminal, open new one - should start with ‘base’, copy-paste the whole line below to create the conda environment that will be used, be patient as it will take a few minutes, hit enter:
 
