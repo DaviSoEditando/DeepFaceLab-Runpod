@@ -1,8 +1,6 @@
 # DeepFaceLab-Runpod
 DeepFaceLab is the leading software for creating deepfakes.
 
-To use:
-
 # From a fresh Pod:
 
 Create pod from ***"RunPod Desktop"*** template, at least 30GB for volume and container disk sizes, as both will be used to create the environment later.
