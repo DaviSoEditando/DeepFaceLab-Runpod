@@ -16,7 +16,7 @@ Hit the spacebar a few times, say yes to each question, set install location to 
 Quit terminal, open new one - should start with ‘base’, copy-paste the whole line below, hit enter:
 
 ```terminal
-cd /home/kasm-user/miniconda3; conda env create -f /workspace/DeepFaceLab_Linux/DeepFaceLab/environment.yaml; cd /workspace/DeepFaceLab_Linux/scripts/; cp -r /home/kasm-user/miniconda3 /workspace/
+cd /home/kasm-user/miniconda3; conda env create -f /workspace/DeepFaceLab_Linux/scripts/environment.yaml; cd /workspace/DeepFaceLab_Linux/scripts/; cp -r /home/kasm-user/miniconda3 /workspace/
 ```
 Now you can download your model and your videos, just go back to the Runpod page, click on **"HTTP Service [Port 6901] Not Ready"** which will open a new tab where you will put the login and password:  
 
