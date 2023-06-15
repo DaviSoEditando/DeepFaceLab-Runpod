@@ -13,7 +13,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-py39_23.3.1-0-Linux-x86_64.s
 
 Hit the spacebar a few times, say yes to each question, set install location to **/home/kasm-user/miniconda3** and finish the installation.
 
-Quit terminal, open new one - should start with ‘base’, copy-paste the whole line below, hit enter:
+Quit terminal, open new one - should start with ‘base’, copy-paste the whole line below to create the conda environment that will be used, be patient as it will take a few minutes, hit enter:
 
 ```terminal
 cd /home/kasm-user/miniconda3; conda env create -f /workspace/DeepFaceLab_Linux/scripts/environment.yaml; cd /workspace/DeepFaceLab_Linux/scripts/; cp -r /home/kasm-user/miniconda3 /workspace/
