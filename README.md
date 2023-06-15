@@ -5,7 +5,7 @@ DeepFaceLab is the leading software for creating deepfakes.
 
 Create pod from ***"RunPod Desktop"*** template, at least 30GB for volume and container disk sizes, as both will be used to create the environment later.
 
-Click **"Connect"** and open a terminal by clicking **"Connect to Web Terminal"**, copy-paste the whole line below, hit enter:
+Click **"Connect"**, Start and open a terminal by clicking **"Connect to Web Terminal"**, copy-paste the whole line below, hit enter:
 
 ```terminal
 wget https://repo.anaconda.com/miniconda/Miniconda3-py39_23.3.1-0-Linux-x86_64.sh; cd /; sudo chmod 777 /workspace; cd /workspace; git clone https://github.com/DaviSoEditando/DeepFaceLab-Runpod DeepFaceLab_Linux; bash /home/kasm-user/*.sh
@@ -25,18 +25,46 @@ login:    kasm_user
 password: password
 ```
 
-A desktop will open remote and you can download using google chrome, path to Worskpace folder will be 
+A desktop will open remote and you can download using google chrome and then unzip the zip you downloaded using the command:
 
 ```
-/workspace/DeepFaceLab_Linux/workspace/
+unzip /home/kasm-user/Desktop/Downloads/*.zip -d /workspace/DeepFaceLab_Linux/workspace/
 ```
 
-Now just open a Terminal and run the scripts of your choice, an example path:
+--------------------------------------------------------
+<details>
 
-```
-cd /workspace/DeepFaceLab_Linux/scripts/ ; bash 6_train_SAEHD.sh
-```
+**<summary>Now just open a Terminal and run the scripts of your choice, some examples paths:</summary>**
 
+<sub> **Extract imagem from data SRC** </sub>
+```
+cd /workspace/DeepFaceLab_Linux/scripts/; bash 2_extract_image_from_data_src.sh
+```
+<sub> **Extract imagem from data DST** </sub>
+```
+cd /workspace/DeepFaceLab_Linux/scripts/; bash 3_extract_image_from_data_dst.sh
+```
+<sub> **Extract faces from SRC** </sub>
+```
+cd /workspace/DeepFaceLab_Linux/scripts/; bash 4_data_src_extract_faces_S3FD.sh
+```
+<sub> **Extract faces and align from DST** </sub>
+```
+cd /workspace/DeepFaceLab_Linux/scripts/; bash 5_data_dst_extract_faces_S3FD.sh
+```
+<sub> **Train SAEHD** </sub>
+```
+cd /workspace/DeepFaceLab_Linux/scripts/; bash 6_train_SAEHD.sh
+```
+<sub> **Merge SAEHD** </sub>
+```
+cd /workspace/DeepFaceLab_Linux/scripts/; bash 7_merge_SAEHD.sh
+```
+<sub> **Merge to MP4** </sub>
+```
+cd /workspace/DeepFaceLab_Linux/scripts/; bash 8_merged_to_mp4.sh
+```
+</details>
 
 # Restart after Pausing the Pod
 
