@@ -8,7 +8,7 @@ Create pod from ***"RunPod Desktop"*** template, at least 30GB for volume and co
 Click **"Connect"** and open a terminal by clicking **"Connect to Web Terminal"**, copy-paste the whole line below, hit enter:
 
 ```terminal
-wget https://repo.anaconda.com/miniconda/Miniconda3-py39_23.3.1-0-Linux-x86_64.sh; cd /; sudo chmod 777 /workspace; cd /workspace; git clone https://https://github.com/DaviSoEditando/DeepFaceLab-Runpod DeepFaceLab_Linux; bash /home/kasm-user/*.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-py39_23.3.1-0-Linux-x86_64.sh; cd /; sudo chmod 777 /workspace; cd /workspace; git clone https://github.com/DaviSoEditando/DeepFaceLab-Runpod DeepFaceLab_Linux; bash /home/kasm-user/*.sh
 ```
 
 Hit the spacebar a few times, say yes to each question, set install location to **/home/kasm-user/miniconda3** and finish the installation.
