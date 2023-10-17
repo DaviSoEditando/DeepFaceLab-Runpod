@@ -5,7 +5,7 @@ DeepFaceLab is the leading software for creating deepfakes.
 
 ### If you don't have an account yet, [follow the link](https://runpod.io?ref=590sx73q) to register and use this beauty.
 
-Create pod from ***"RunPod Desktop"*** template, at least 30GB for volume and container disk sizes, as both will be used to create the environment later.
+Create pod from ***"RunPod Desktop"*** template (***[use this link](https://runpod.io/gsc?template=4l0vm2cw43&ref=590sx73q)***, because they removed the previous option), at least 30GB for volume and container disk sizes, as both will be used to create the environment later.
 
 Click **"Connect"**, **"Start Web Terminal"** and open a terminal by clicking **"Connect to Web Terminal"**, copy-paste the whole line below, hit enter:
 
